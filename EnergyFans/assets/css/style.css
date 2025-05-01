@@ -1,0 +1,209 @@
+/* ====================================
+   GLOBALER HINTERGRUND & BODY-STIL
+==================================== */
+body {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 80px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: #f0f0f0;
+}
+
+/* ====================================
+   LOGIN & REGISTRIERUNG
+==================================== */
+.login-form {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 400px;
+    margin: 100px auto;
+    color: #fff;
+    box-shadow: 0 0 10px #000;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #198754;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.login-form a {
+    color: #0dcaf0;
+    text-decoration: none;
+}
+
+/* ====================================
+   FEHLERTEXTE
+==================================== */
+.error {
+    color: #ff4d4d;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* ====================================
+   NAVIGATION
+==================================== */
+.navbar-brand img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* ====================================
+   CAROUSEL (STARTSEITE)
+==================================== */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+/* ====================================
+   PRODUKTKARTEN
+==================================== */
+.card {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    border-radius: 12px;
+}
+
+.card-img-top {
+    object-fit: contain;
+    height: 200px;
+    background-color: white;
+    padding: 10px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-title, .card-text {
+    color: #333;
+}
+
+/* ====================================
+   FUSSZEILE
+==================================== */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 0.9rem;
+    z-index: 1000;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+}
+
+/* ====================================
+   TABELLEN (Warenkorb & Bestellungen)
+==================================== */
+table {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+/* ====================================
+   BUTTONS
+==================================== */
+.btn-primary, .btn-success, .btn-danger, .btn-warning {
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: #0d6efd;
+}
+
+.btn-success:hover {
+    background-color: #198754;
+}
+
+.btn-danger:hover {
+    background-color: #dc3545;
+}
+
+.btn-warning:hover {
+    background-color: #ffc107;
+    color: #000;
+}
+
+/* ====================================
+   PROJEKTINFO-SEITE BOX
+==================================== */
+.info-box {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+
+/* ====================================
+   TEXTE (z. B. H1)
+==================================== */
+h1, h2, h3, h4, h5 {
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
+
+.section-title {
+    color: #222;
+    font-weight: bold;
+}
+
+.container-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #111;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.footer a {
+    color: #ffc107;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
